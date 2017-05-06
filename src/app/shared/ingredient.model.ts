@@ -1,3 +1,4 @@
-/**
- * Created by izaika on 5/6/17.
- */
+export class Ingredient {
+  constructor(public name: string, public amount: number) {
+  }
+}
