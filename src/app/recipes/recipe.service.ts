@@ -11,20 +11,27 @@ export class RecipeService {
   private recipes: Recipe[] = [
     new Recipe(
       'Tasty Schnitzel',
-      'This is a simply test',
-      'https://upload.wikimedia.org/wikipedia/commons/thumb/e/ec/KFC_Original_Recipe_chicken_in_bucket.jpg/1280px-KFC_Original_Recipe_chicken_in_bucket.jpg',
+      'A super-tasty Schnitzel - just awesome!',
+      'http://www.daringgourmet.com/wp-content/uploads/2014/03/Schnitzel-7_edited.jpg',
       [
         new Ingredient('Meat', 1),
-        new Ingredient('French Fries', 20)
+        new Ingredient('Lemon', 2),
+        new Ingredient('Egg', 1),
+        new Ingredient('Parsley', 3),
       ]
     ),
     new Recipe(
       'Big Fat Burger',
-      'This is a simply test',
-      'https://upload.wikimedia.org/wikipedia/commons/thumb/e/ec/KFC_Original_Recipe_chicken_in_bucket.jpg/1280px-KFC_Original_Recipe_chicken_in_bucket.jpg',
+      'What else you need to say',
+      'https://sirgo.org/images/burger-png-9.jpg',
       [
         new Ingredient('Bread', 2),
-        new Ingredient('Meat', 1)
+        new Ingredient('Meat', 1),
+        new Ingredient('Tomato', 1),
+        new Ingredient('Cheese', 1),
+        new Ingredient('Salad', 3),
+        new Ingredient('Bacon', 1),
+        new Ingredient('Ketchup', 1)
       ]
     ),
   ];
