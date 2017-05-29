@@ -22,7 +22,7 @@ export class RecipeService {
     new Recipe(
       'Big Fat Burger',
       'What else you need to say',
-      'https://sirgo.org/images/burger-png-9.jpg',
+      'https://avatanplus.com/files/resources/original/56f5571dc7e42153ae5c4c7b.png',
       [
         new Ingredient('Bread', 2),
         new Ingredient('Meat', 1),
