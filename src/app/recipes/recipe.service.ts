@@ -13,7 +13,7 @@ export class RecipeService {
     new Recipe(
       'Tasty Schnitzel',
       'A super-tasty Schnitzel - just awesome!',
-      'http://www.daringgourmet.com/wp-content/uploads/2014/03/Schnitzel-7_edited.jpg',
+      'https://www.salomon-foodworld.com/files/salomon/images/Produkterlebnisse/Center%20of%20the%20Plate/MEAT-SELECTION-Knusper-Schnitzel-gebraten_Freisteller_Wedges_72dpi.png',
       [
         new Ingredient('Meat', 1),
         new Ingredient('Lemon', 2),
