@@ -4,6 +4,7 @@ import {Subscription} from 'rxjs/Subscription';
 
 import {Recipe} from '../recipe.model';
 import {RecipeService} from '../recipe.service';
+import {AuthService} from '../../auth/auth.service';
 
 @Component({
   selector: 'app-recipe-list',
@@ -17,7 +18,9 @@ export class RecipeListComponent implements OnInit, OnDestroy {
 
   constructor(private recipeService: RecipeService,
               private router: Router,
-              private route: ActivatedRoute) { }
+              private route: ActivatedRoute,
+              private authService: AuthService) {
+  }
 
   ngOnInit() {
     this.subscription = this.recipeService.recipesChanged.subscribe((recipes: Recipe[]) => {
